@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(68, 130, 197);
+}
+.structure
+{
+    
+    position: fixed;
+    border: 3px solid;
+    text-align: center;
+    justify-content: center;
+        align-items: center;
+        background-color: rgb(129, 126, 126);
+        top: 0;
+        left: 0;
+        margin-top: 120px;
+        margin-left: 500px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgb(35, 30, 30),
+         0px 0px 10px black ;
+    
+        
+    
+
+    
+}
+.display
+{
+    border: 2px solid red;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(35, 30, 30);
+    background-color: white;
+  
+
+
+    
+}
+button
+{
+    
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(35, 30, 30);
+    background-color: black;
+    color: aliceblue;
+            transition: all 0.2s ease-in-out;
+    
+}
+button:hover{
+    transition: translate(5px 5px);
+color: aqua;
+background-color: rgb(150, 126, 97);
+}
