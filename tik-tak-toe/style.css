@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(172, 164, 164);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 10px;
+
+    border-color: rgb(231, 22, 22);
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(218, 205, 205);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.row {
+    display: flex;
+    background-color: rgb(190, 181, 181);
+
+    flex-direction: row;
+    border: none;
+
+
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(188, 188, 207);
+    border: 2px solid;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+}
+
+.cell:hover {
+    background-color: rgb(154, 159, 166);
+}
+
+.cell.x {
+    color: crimson;
+}
+
+.cell.o {
+    color: blue;
+}
+
+.message-container {}
+
+#reset {
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 2rem;
+
+    padding: 10px 20px;
+    background-color: rgb(26, 109, 204);
+    transition: all 0.1s ease-in-out;
+}
+
+#reset:hover {
+    background-color: chocolate;
+}
