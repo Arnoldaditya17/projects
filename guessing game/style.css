@@ -1,0 +1,50 @@
+body{
+    
+}
+.container
+{
+    background-color: gray;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 100px auto;
+    box-shadow: 5px 5px 8px black;
+}
+h1{
+    margin-top: 0px;
+    box-shadow: 3px 2px 8px rgb(233, 222, 222);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+ input[type=number]
+ {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(222, 191, 150);
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 2px 8px black;
+ }
+ button{
+    padding: 13px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(231, 65, 65);
+    color: white;
+    font-weight: bold;
+border: none;
+box-shadow: 3px 2px 8px black;
+ }
+ button:hover
+ {
+    background-color: rgb(14, 192, 73);
+ }
